@@ -1,11 +1,6 @@
 import SwiftUI
 import RickMortySwiftApi
 
-enum ViewState {
-    case loading
-    case success
-    case error(String)
-}
 
 struct CharactersView: View {
     @State private var characters: [RMCharacterModel] = []
